@@ -2678,7 +2678,7 @@ public class FixedDepositTest extends IntegrationTest {
     }
 
     @Test
-    public void FixedDepositNoneInterestAccruals() {
+    public void testFixedDepositNoneInterestAccruals() {
         try {
             final String amount = "10000";
             final Account assetAccount = this.accountHelper.createAssetAccount();
@@ -2772,7 +2772,7 @@ public class FixedDepositTest extends IntegrationTest {
     }
 
     @Test
-    public void FixedDepositNoneInterestPostInterest() {
+    public void testFixedDepositNoneInterestPostInterest() {
         try {
             final String amount = "10000";
             final Account assetAccount = this.accountHelper.createAssetAccount();
